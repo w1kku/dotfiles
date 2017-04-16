@@ -14,3 +14,9 @@ for file in $files; do
 	echo "Creating symlink"
 	ln -s $(pwd)/$file ~/$file
 done
+
+echo "In nvim run :PlugInstall to install plugins."
+echo "Running sudo pacman -S pkgfile"
+sudo pacman -S pkgfile
+
+echo "Restart your shell to see the new prompt"
