@@ -33,3 +33,8 @@ nnoremap <C-L> <C-W>l
 nnoremap <C-H> <C-W>h
 " Workaround for a bug in Neovim
 nmap <BS> <C-W>h
+
+set mouse=a
+
+" Use system clipboard
+set clipboard+=unnamedplus

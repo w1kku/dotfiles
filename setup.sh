@@ -16,7 +16,5 @@ for file in $files; do
 done
 
 echo "In nvim run :PlugInstall to install plugins."
-echo "Installing dependencies: pkgfile, clang, python, python-neovim"
-sudo pacman -S pkgfile clang python python-neovim
-
+echo "Dependencies needed (Arch Linux names): pkgfile clang python python-neovim"
 echo "Restart your shell to see the new prompt"
